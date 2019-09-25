@@ -1,0 +1,6 @@
+- hosts: localhost, all
+  remote_user: matt
+  order: sorted
+  tasks:
+    - name: run echo
+      command: /bin/notrealcommand "test"
