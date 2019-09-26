@@ -4,3 +4,4 @@
   tasks:
     - name: run echo
       command: /bin/notrealcommand "test"
+    - pause: seconds=10
