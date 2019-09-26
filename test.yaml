@@ -3,5 +3,5 @@
   order: sorted
   tasks:
     - name: run echo
-      command: /bin/notrealcommand "test"
+      command: /bin/echo "test"
     - pause: seconds=10
